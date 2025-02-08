@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Surprise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-text"></div>
+    <div class="container">
+        <h1>Will you be my Valentine?</h1>
+        <div class="buttons">
+            <button class="yes-btn" onclick="showLove()">Yes ❤️</button>
+            <button class="no-btn" onclick="showSad()">No 😢</button>
+        </div>
+        <div class="hidden-message" id="loveMessage">
+            <p>Hehe, I knew it! You're mine forever ❤️ But I love you more!</p>
+            <img src="uno_reverse.png" alt="Uno Reverse - I love you more">
+        </div>
+        <div class="hidden-message" id="sadMessage">
+            <p>Whaaaat?! No way! You're mine forever!!! 😡💖</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
