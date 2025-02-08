@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     let phrases = [
+        "فرشته قشنگم"
         "I love your eyes, Ariana ❤️",
         "I love your smile, Ariana 😊",
         "You make me happy every day 💖",
@@ -20,6 +21,13 @@ document.addEventListener("DOMContentLoaded", function() {
         "I adore everything about you 💖",
         "You're the most precious gift in my life 🎁",
         "You're my forever and always ❤️"
+        "عاشقتم نینی کوچولوی چیکاش"
+        "میمیرم براتااا"
+    "زندگی منیا"
+    "جون منیا"
+    "فدات بشم الهییی"
+    "قربونت میرما"
+    "دورت بگرده چیکااا"
     ];
     let background = document.querySelector(".background-text");
     for (let i = 0; i < 30; i++) {
